@@ -321,6 +321,7 @@ for indcomunidad=1:length(elegidas)
 end
 
 % PANEL C Y D
+CuantasCloud=15;
 
 load(['./' language '/clusters_osc'])
 load(['./' language '/TIMELINE'])
