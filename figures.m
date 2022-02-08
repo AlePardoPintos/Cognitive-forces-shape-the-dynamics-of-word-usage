@@ -226,7 +226,7 @@ OSC=reshape([TIMELINE.words.smoothed],length(TIMELINE.words(1).years),...
     length([TIMELINE.words]))';
 
 
-
+CuantasCloud=15;
 elegidas=elegidastrend;
 paneles=[[6 7 8];[12  13 14]];
 
@@ -321,7 +321,7 @@ for indcomunidad=1:length(elegidas)
 end
 
 % PANEL C Y D
-CuantasCloud=15;
+
 
 load(['./' language '/clusters_osc'])
 load(['./' language '/TIMELINE'])
